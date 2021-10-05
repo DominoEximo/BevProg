@@ -18,7 +18,9 @@ int main(){
 	else
 		cout << "the smaller value is: " << b << " the larger value is: " << a << "\n";
 	
-	if (a-b < 1.0/100 or b-a < 1.0/100)
+	if (a-b < 1.0/100 and a > b)
+		cout << "the numbers are almost equal. " << "\n";
+	else if(b-a < 1.0/100 and a < b)
 		cout << "the numbers are almost equal. " << "\n";
 	
 	
